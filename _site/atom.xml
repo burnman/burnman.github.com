@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>ShellDone</title>
+ <link href="http://shelldone.com/atom.xml" rel="self"/>
+ <link href="http://shelldone.com/"/>
+ <updated>2014-05-14T09:40:43+08:00</updated>
+ <id>http://shelldone.com</id>
+ <author>
+   <name>gaoxudong</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>新博客：舍得(shelldone.com)启用</title>
+   <link href="http://shelldone.com/2014/05/13/shelldone-coming/"/>
+   <updated>2014-05-13T00:00:00+08:00</updated>
+   <id>http://shelldone.com/2014/05/13/shelldone-coming</id>
+   <content type="html">&lt;p&gt;经过几天的折腾，新博客终于初见雏形了，虽然有许多需要改善的地方，但是基本上可以用了，这期间我把jekyll项目所列出来的博客基本都看了一遍，觉得这个博客主题还算喜欢，就先用这个主题吧，而且这个主题的名字还跟jekyll这么有关系，经过简单的修改和借鉴就先作为新博客：舍得(shelldone.com)的1.0版本吧，后续会持续改善。&lt;br&gt;
+新博客是基于jekyll，虽然很久之前就听过，但是一直没有用过，直到最近在github上偶然看到github主页支持Jekyll，才认真了解了一下，发现这简直就是为程序猿码农们量身打造的，部署在github上，使用markdown语法，加上使用自己喜欢的编辑器就可以  &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;像黑客一样写博客  (出自：&lt;a href=&quot;http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html&quot;&gt;Blogging Like a Hacker&lt;/a&gt;)  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;你现在看到的这篇博客就是用SublimeText2+MarkDownPrivew插件写的。&lt;br&gt;
+以后就开始坚持在这里写博客了，本博客主要关注WEB开发和Android移动开发技术，也会发一些个人随笔，主要是对技术和人生的感悟。对了，本博客的所有内容未经允许，谢绝转载，谢谢。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hello World!</title>
+   <link href="http://shelldone.com/essay/2014/05/12/hello-world/"/>
+   <updated>2014-05-12T00:00:00+08:00</updated>
+   <id>http://shelldone.com/essay/2014/05/12/hello-world</id>
+   <content type="html">&lt;p&gt;OK,may be you have guessed that I am a programmer.Yes, you are right.&lt;br&gt;
+I am glad that my blog has built finished.This blog is build by jekyll and themed by poole, and I write this by Sublime Text 2 With MarkDown Preview Plugin.When I know GitHub has supported jekyll, I decided to change my blog to it in a second.It&amp;#39;s so charming.I love write blog in this way,it feels so cool!As you know, my blog is deploy on GitHub.Com,so anyone of you can visiting it speedly.&lt;br&gt;
+In the next days,I will write blog here,May be mostly write in chinese.So,the end.  &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;no zuo no die why you try,&lt;br&gt;
+no try no high,give me five.&lt;br&gt;
+--just do it!&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+
+</feed>
