@@ -1,13 +1,23 @@
-# MUST EDIT BELOW
-sitename: the_minimum       #Your site title
-tagline: themes for jekyll  #You should always have a tagline
-url: http://your.site.com   #URL Please
-ga: UA-XXXXX-X              #Google Analytics ID
-sitemap: GOOGLEWEBMASTER    #Google webmaster verification code
-# END
-# CHOOSE YOUR PREFERENCE
-pygments:    true
-markdown:    maruku
-permalink:   pretty
-# END
-exclude: LICENSE, README.markdown, Rakefile
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Lanyon
+tagline:          'A Jekyll theme'
+description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://lanyon.getpoole.com
+paginate:         5
+
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/poole/lanyon
