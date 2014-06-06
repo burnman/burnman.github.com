@@ -1,10 +1,7 @@
 ---
 layout: post
-category :
-tagline: ""
-tags : [intro]
+title: Introducing
 ---
-{% include JB/setup %}
 
 博客早就搭建好了，一直没有开始写文章。真是懒  ：）
 
