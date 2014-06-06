@@ -19,5 +19,5 @@ author:
 # Custom vars
 version:          1.0.1
 
-github:
+github:           https://github.com/burnman
   repo:           https://github.com/poole/lanyon

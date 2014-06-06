@@ -41,7 +41,5 @@ tags : [intro, tag]     //标签，用于'tag.md'页面的归档
         * [通过GitHub Pages建立个人站点（详细步骤）](http://www.cnblogs.com/purediy/archive/2013/03/07/2948892.html)
         * [一步步在GitHub上创建博客主页](http://pchou.info/web-build/2013/01/05/build-github-blog-page-02.html)
 2. 克隆项目，去除_posts下的文章，上传至你的仓库
-3. 访问地址，其中`USERNAME`是你的Github用户名
-```
-USERNAME.github.io
-```
+3. `_posts` `images` 目录下所有文件版权所有 未经授权请勿使用
+4. 访问地址<http://USERNAME.github.io/>，其中`USERNAME`是你的Github用户名
