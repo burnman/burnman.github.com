@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Burnman
 tagline:          'I Am What I Am'
-description:      ''
+description:      '<a href="https://github.com/burnman/">@Github</a>'
 url:              http://burnman.github.io/
 paginate:         5
 
