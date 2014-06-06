@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Introducing
+tagline: "Supporting tagline"
+categories: [web]
+tags : [intro, beginner, jekyll, tutorial]
 ---
 
 博客早就搭建好了，一直没有开始写文章。真是懒  ：）
