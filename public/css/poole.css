@@ -261,7 +261,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .pull-right {
-  text-align: right;
+  float: right;
 }
 
 /*
