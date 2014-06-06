@@ -13,11 +13,11 @@ url:              http://burnman.github.io/
 paginate:         5
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Burnman'
+  url:            http://burnman.github.io/
 
 # Custom vars
 version:          1.0.1
 
-github:           https://github.com/burnman
-  repo:
+github:
+  repo:           https://github.com/burnman/burnman.github.com
