@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Example content
+categories: [intro]
+tags : [intro, jekyll]
 ---
 
 

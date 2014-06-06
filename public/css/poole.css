@@ -260,6 +260,9 @@ tbody tr:nth-child(odd) th {
   font-weight: 300;
 }
 
+.pull-right {
+  text-align: right;
+}
 
 /*
  * Messages
