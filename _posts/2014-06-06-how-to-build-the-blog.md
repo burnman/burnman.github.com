@@ -27,13 +27,11 @@ archive.md              //归档页·按时间来进行归档
 
 这些分类都依赖于文章页(post)头部的代码来识别，下面是示例：
 
-{% highlight  %}
----
+{% highlight js %}
 layout: post            //调用_layouts中的post.html作为布局模板
 title: Introducing      //文章标题
 categories: [intro]     //分类名，用于'category.md'页面的归档
 tags : [intro, tag]     //标签，用于'tag.md'页面的归档
----
 {% endhighlight %}
 
 ### 使用
