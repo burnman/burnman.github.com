@@ -9,7 +9,7 @@ permalink:        pretty
 title:            Burnman
 tagline:          'I Am What I Am'
 description:      '<a href="https://github.com/burnman/">@Github</a>'
-url:              http://burnman.github.io/
+baseurl:              http://burnman.github.io/
 paginate:         5
 
 author:

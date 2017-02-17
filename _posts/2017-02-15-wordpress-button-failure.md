@@ -5,7 +5,6 @@ categories: [Wordpress]
 tags : []
 ---
 
-# Wordpress 无法切换可视化和文本编辑器
 
 ## 背景介绍
 
