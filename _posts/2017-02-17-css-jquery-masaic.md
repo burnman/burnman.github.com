@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 使用 CSS 和 Jquery 制作文字马赛克效果
-categories: []
+title: 使用 CSS 和 jQuery 制作文字马赛克效果
+categories: [CSS]
 tags : [css jquery]
 ---
 
