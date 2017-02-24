@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mac 出现 xcrun: error: invalid active developer path, missing xcrun 错误
+title: Mac 出现 missing xcrun 错误
 categories: [Mac]
 tags : [xcrun]
 ---
