@@ -7,9 +7,10 @@ tags : [Sass mixin]
 
 Mixin 是 Sass 中用来方便地复用代码的方法，你可以简单点理解成函数，可以传递参数，参数名以`$`符号开始，多个参数以逗号分开，也可以给参数设置默认值，返回的是一组 CSS 属性或代码。
 
+
+{% highlight SCSS %}
 ## Clearfix
 
-``` SCSS
 @mixin clearfix() {
     &:before,
     &:after {
@@ -24,7 +25,6 @@ Mixin 是 Sass 中用来方便地复用代码的方法，你可以简单点理�
 .container {
  	@include clearfix;
 }
-```
 
 ## 圆角边框
 
@@ -40,6 +40,7 @@ Mixin 是 Sass 中用来方便地复用代码的方法，你可以简单点理�
 	@include border-radius(10px);
 }
 ```
+{% endhighlight %}
 
 ## 跨浏览器的透明度设置
 
@@ -54,7 +55,7 @@ Mixin 是 Sass 中用来方便地复用代码的方法，你可以简单点理�
 
 .faded-text {
 	@include opacity(0.8);
-}      
+}
 ```
 
 ## 文本溢出省略显示
@@ -125,15 +126,15 @@ p {
 ```
 @mixin imgRetina($image, $extension, $width, $height, $position: center, $repeat: no-repeat) {
      background: url($image + '.' + $extension) $repeat $position;
-          
-     @media 
+
+     @media
      screen and (-webkit-min-device-pixel-ratio: 2),
      screen and (   min--moz-device-pixel-ratio: 2),
      screen and (   -moz-min-device-pixel-ratio: 2),
      screen and (     -o-min-device-pixel-ratio: 2/1),
      screen and (        min-device-pixel-ratio: 2),
-     screen and (             min-resolution: 192dpi), 
-     screen and (             min-resolution: 2dppx) {    
+     screen and (             min-resolution: 192dpi),
+     screen and (             min-resolution: 2dppx) {
         background: url($image + '@2x' + '.' + $extension) $repeat $position;
         background-size: $width $height;
      }
