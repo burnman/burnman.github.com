@@ -21,4 +21,4 @@ xcode-select --install
 
 然后会弹出窗口让你安装，安装完就ok了
 
-[stackoverflow](http://stackoverflow.com/questions/32893412/command-line-tools-not-working-os-x-el-capitan-macos-sierra/)
+参考：[stackoverflow](http://stackoverflow.com/questions/32893412/command-line-tools-not-working-os-x-el-capitan-macos-sierra/)
