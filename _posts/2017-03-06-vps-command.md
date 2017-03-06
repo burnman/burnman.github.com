@@ -8,24 +8,20 @@ tags : [ubuntu linux]
 
 ## 登录远程主机
 
-```
+{% highlight PowerShell %}
 sudo ssh spaling@107.170.231.223 -p 21
-```
+{% endhighlight %}
 
 **选项**
 
     -p  指定远程主机的端口. 可以在配置文件中对每个主机单独设定这个参数.
 
+
 ## 压缩
 
-```
+{% highlight PowerShell %}
 sudo zip -qr thus.zip /home/wwwroot/thus
-```
-
-**选项**
-
-    -q：不显示指令执行过程；
-    -r：递归处理，将指定目录下的所有文件和子目录一并处理；
+{% endhighlight %}
 
 将/home/wwwroot/thus目录压缩成thus.zip
 
@@ -34,39 +30,41 @@ sudo zip -qr thus.zip /home/wwwroot/thus
     -q  安静模式，在压缩的时候不显示指令的执行过程
     -r  将指定的目录下的所有子目录以及文件一起处理
 
+
 ## 解压
-```
+{% highlight PowerShell %}
 sudo unzip thus.zip
-```
-```
+{% endhighlight %}
+{% highlight PowerShell %}
 sudo unzip -d /home/wwwroot/ thus.zip
-```
+{% endhighlight %}
+
+将thus.zip解压到当前目录
 
 **选项**
 
     -d<目录>：指定文件解压缩后所要存储的目录；
 
-将thus.zip解压到当前目录
 
 ## 移动
 
-```
+{% highlight PowerShell %}
 sudo mv thus.zip /home/wwwroot/
-```
+{% endhighlight %}
 将当前目录下的thus.zip压缩文件移动到/home/wwwroot/目录下
 
 ## 重命名
 
-```
+{% highlight PowerShell %}
 sudo mv /home/wwwroot/thus /home/wwwroot/thusin
-```
+{% endhighlight %}
 将thus重命名为thusin
 
 ## 删除
 
-```
+{% highlight PowerShell %}
 sudo rm -rf /home/wwwroot/thus
-```
+{% endhighlight %}
 递归删除/home/wwwroot/thus目录及其下的文件
 
 **选项**
@@ -76,28 +74,30 @@ sudo rm -rf /home/wwwroot/thus
     --preserve-root：不对根目录进行递归操作；
     -v：显示指令的详细执行过程。
 
+
 ## 权限
 
 ### 1.更改文件所有者
 
-```
+{% highlight PowerShell %}
 sudo chown -R www:www /home/wwwroot/thus
-```
+{% endhighlight %}
 更改整个文件夹的拥有者和用户组为www
 
 ### 2.更改文件的权限
 
-```
+{% highlight PowerShell %}
 sudo chmod 777 /home/wwwroot/thus
-```
+{% endhighlight %}
 
 更改读取、写入、执行权限
 
+
 ## 显示每个文件和目录的磁盘使用空间
 
-```
+{% highlight PowerShell %}
 du -h --max-depth=1 thus
-```
+{% endhighlight %}
 
 **选项**
 
